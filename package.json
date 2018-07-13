@@ -1,0 +1,15 @@
+{
+  "name": "mma",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "styfle",
+  "license": "MIT",
+  "dependencies": {
+    "mma": "^0.1.2"
+  }
+}
