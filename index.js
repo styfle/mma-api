@@ -10,7 +10,7 @@ let cache = new Map();
 const server = createServer((req, res) => {
     let { httpVersion, method, url } = req;
     console.log(`${httpVersion} ${method} ${url}`);
-    let { pathname = '/', query = {} } = parse(url || '', true);
+    let { query = {} } = parse(url || '', true);
 
     if (!query.fighter) {
         const data = { error: 'Fighter Not Found' };
